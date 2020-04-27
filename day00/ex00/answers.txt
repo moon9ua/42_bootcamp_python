@@ -1,5 +1,17 @@
-pip list
-pip freeze
-pip show numpy
-pip search tesseract
-pip freeze >> requirements.txt
+# 설치된 패키지 리스트 출력
+pip3 list
+
+# 설치된 패키지와 그 버전 리스트 출력
+pip3 freeze
+
+# numpy의 metadata
+pip3 show numpy
+
+# 이름이나 요약에 "tesseract"가 들어간 PyPI 패키지 검색
+pip3 search tesseract
+
+# 현재 패키지와 버전을 requirements.txt 파일로 저장
+pip3 freeze >> requirements.txt
+
+# conda로 설치한 패키지들이 pip로 검색이 되나? 헷갈림...
+# 일단 가상환경 안에서 pip로 설치한 패키지는, 가상환경 밖에서도 설치된 상태인 것 같다.
