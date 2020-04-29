@@ -22,3 +22,5 @@ elif sys.argv[1].isdigit == False or sys.argv[2].isdigit() == False:
     print(usage + "\n" + example)
 else:
     print("Sum:\t" + str(sys.argv[1] + sys.argv[2]))
+
+# 숫자에 큰따옴표 붙은거 해결 못함.
