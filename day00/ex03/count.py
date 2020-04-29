@@ -25,5 +25,7 @@ def text_analyzer(*args):
     print("- " + str(punc) + " punctuation marks\n")
     print("- " + str(space) + " spaces")
 
-# text_analyzer("Python 2.0, released 2000, introduced features like List comprehensions and a garbage collection system capable of collecting reference cycles.")
+# text_analyzer("Python 2.0, released 2000, introduced features \
+# like List comprehensions and a garbage collection system capable \
+# of collecting reference cycles.")
 # text_analyzer()

@@ -6,7 +6,4 @@ if len(phrase) > 42:
 while len(phrase) != 42:
     phrase = "-" + phrase
 
-print(phrase, end = "")
-
-## | cat -e 했을 때, $와 %의 차이
-## %는 끝났다는 뜻, $는 줄바꿈의 뜻?
+print(phrase, end="")

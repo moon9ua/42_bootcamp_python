@@ -1,12 +1,12 @@
 import sys
 
-if sys.argv[1].isdigit() == True or sys.argv[2].isdigit() == False:
+if sys.argv[1].isdigit() is True or sys.argv[2].isdigit() is False:
     print("ERROR")
     exit()
 old_str = sys.argv[1]
 n = int(sys.argv[2])
 
-punc = '''!()-[]{};:'"\,<>./?@#$%^&*_~'''
+punc = '''!()-[]{};:'"\\,<>./?@#$%^&*_~'''
 str = ""
 for i in range(len(old_str)):
     if not old_str[i] in punc:

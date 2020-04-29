@@ -17,7 +17,7 @@ elif len(sys.argv) < 2:
     print("InputError: few arguments\n")
     print(usage)
     print(example)
-elif sys.argv[1].isdigit == False or sys.argv[2].isdigit() == False:
+elif sys.argv[1].isdigit is False or sys.argv[2].isdigit() is False:
     print("InputError: only numbers\n")
     print(usage + "\n" + example)
 else:

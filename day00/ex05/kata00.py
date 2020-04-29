@@ -1,10 +1,9 @@
-t = (19,42,21)
+t = (19, 42, 21)
 
-# print("The " + str(len(t)) + " numbers are:", end = "")
-print("The {} numbers are:".format(str(len(t))), end ="")
+print("The {} numbers are:".format(str(len(t))), end="")
 for i in range(len(t)):
-    print(" " + str(t[i]), end = "")
+    print(" " + str(t[i]), end="")
     if not i == len(t) - 1:
-        print(",", end = "")
+        print(",", end="")
     else:
         print()
